@@ -11,6 +11,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: Argocd-multi-apps/kube-manifest/app2
+    path: Argocd-multi-apps/kube-manifest/apps2
     repoURL: https://github.com/ekh87/Argocd-multi-apps.git
     targetRevision: HEAD
