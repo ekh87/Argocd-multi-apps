@@ -12,5 +12,5 @@ spec:
   project: default
   source:
     path: apps/apps1
-    repoURL: https://github.com/ekh87/Argocd-multi-apps.git
+    repoURL: https://github.com/ekh87/argocd-multi-apps.git
     targetRevision: HEAD
