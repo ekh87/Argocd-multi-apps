@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: nginx-app-01
   labels:
-    app: apps01
+    app: apps1
 spec:
   replicas: 3
   selector:
@@ -12,7 +12,7 @@ spec:
   template:
     metadata:
       labels:
-        app: apps01
+        app: apps1
     spec:
       containers:
       - image: nginx:latest
